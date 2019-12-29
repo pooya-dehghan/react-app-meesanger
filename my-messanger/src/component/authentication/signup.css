@@ -1,0 +1,108 @@
+.signup-main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.signup-left-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.signup-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 60px;
+    margin-top: 50px;
+    margin-right: 30px;
+    flex-wrap: wrap;
+}
+.signup-right-container input {
+    height: 5vh;
+}
+.text p {
+    font-family: cursive;
+}
+.text h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-self: center;
+}
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-evenly;
+}
+.signup-form label {
+    align-self: flex-start
+}
+.signup-form input {
+    border: none;
+    outline: none;
+    padding-left: 40px;
+}
+.kiaa {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 300px;
+}
+#kia {
+    font-family: cursive;
+    font-size: 40px;
+    margin-left: 120px;
+}
+#Real-Estate {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.signup-button {
+    border: none;
+    height: 5vh;
+    border-radius: 10px;
+}
+.signup-footer li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    border-radius: 5em;
+    overflow: hidden;
+}
+.signup-footer {
+    padding: 0px;
+    text-align-last: center;
+}
+.signup-footer li a {
+    display: block;
+    padding: 5px;
+    height: 3.26em;
+    min-width: 3.26em;
+    max-width: 3.26em;
+    white-space: nowrap;
+    transition: 0.7s;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.signup-footer a {
+    text-decoration: none;
+}
+.signup-footer li a i {
+    font-size: 40px;
+    margin-right: 0.5em;
+    margin-left: 0.18em;
+}
+.signup-footer li:hover a {
+    max-width: 200px;
+}
+.signup-footer .instagram {
+    background-color: rgb(158, 34, 92);
+}
+.signup-footer .twitter {
+    background-color: rgb(105, 130, 204);
+}
+.signup-footer .telegram {
+    background-color: royalblue;
+}
